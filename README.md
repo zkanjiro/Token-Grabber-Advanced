@@ -7,9 +7,9 @@
 - Token grabber
 - Email grabber
 - Account bio
-- Email status
-- Phone number
 - NSFW enabled
+- Phone number
+- Email status
 - Nitro type
 
 > **FEATURES | [Computer] :**
