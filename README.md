@@ -14,8 +14,8 @@
 
 > **FEATURES | [Computer] :**
 - Mac address
-- IP address
 - Token path
+- IP address
 - Username
 - Hostname
 - IP city
