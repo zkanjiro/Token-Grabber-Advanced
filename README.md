@@ -1,7 +1,7 @@
 # **VENAX DISCORD TOKEN GRABBER**<br>
 
-> **[Discord] :              [Copmuter]:**      
-- Account language         - 
+> **FEATURES | [Discord] :**
+- Account language
 - Account avatar
 - Account banner
 - Token grabber
@@ -10,3 +10,13 @@
 - Phone number
 - NSFW enabled
 - Nitro type
+
+> **FEATURES | [Computer] :**
+- Mac address
+- IP address
+- Token path
+- Username
+- Hostname
+- IP city
+
+> **NOTES**
