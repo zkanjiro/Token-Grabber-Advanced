@@ -4,10 +4,10 @@
 - Account language
 - Account banner
 - Account avatar
-- Token grabber
-- Email grabber
 - NSFW enabled
 - Phone number
+- Token grabber
+- Email grabber
 - Email status
 - Account bio
 - Nitro type
