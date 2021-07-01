@@ -1,2 +1,12 @@
-# Token-Grabber-Advanced
-This is an advanced Discord token grabber which send you through a Discord webhook all account informations of the victim including new features (bio / banner...)
+# **VENAX DISCORD TOKEN GRABBER**<br>
+
+> **[Discord] :              [Copmuter]:**      
+- Account language         - 
+- Account avatar
+- Account banner
+- Token grabber
+- Email grabber
+- Email status
+- Phone number
+- NSFW enabled
+- Nitro type
