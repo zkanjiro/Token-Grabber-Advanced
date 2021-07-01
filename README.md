@@ -6,10 +6,10 @@
 - Account avatar
 - Token grabber
 - Email grabber
-- Account bio
 - NSFW enabled
 - Phone number
 - Email status
+- Account bio
 - Nitro type
 
 > **FEATURES | [Computer] :**
