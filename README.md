@@ -1,8 +1,8 @@
 > # __**VENAX DISCORD TOKEN GRABBER**__<br>
 
 For people that constantly ask me to update it so it can decrypt the new Discord clients tokens, I already did it thanks to @NobodyWouldEverUseThis7
-I tested it and it is working, I added some things by the way, unfortunately, I have been "skidded" so much times for almost every code I made that
-I don't really want to share my codes again, just make it by yourself, it will make you better at programming, cordially, venax.
+I tested it and it is working, so the grabber already has already been updated, and upgraded, for me.
+Unfortunately, after being "skidded" every time I made programs, I don't really want to share my codes again, being generous was a loss of time, just make your codes by yourself, it will make you better at programming, good luck for the future, cordially, venax.
 
 **TUTORIAL VIDEO : https://www.youtube.com/watch?v=QJXf2JL5NYE**<br>
 **The program has been made for educational purposes, do not use it for malicious purposes.**<br>
